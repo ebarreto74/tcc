@@ -1,0 +1,27 @@
+\chapter{METODOLOGIA}
+
+Para este estudo foi utilizada a plataforma Google Colaboratory, tendo como linguagem de programação a versão 3.7.11 do Python. As bibliotecas utilizadas foram:
+scikit-learn (0.24.2) - algoritmos de clusterização kmeans, hierárquico e DBSCAN; método da silhueta para avaliação dos agrupamentos; e decomposição em componentes principais (PCA);
+scikit-learn-extra (0.2.0) - algoritmos de clusterização kmedoids;
+scipy (1.4.1) - exibição de dendrogramas para visualização de agrupamento hierárquico;
+matplotlib (3.2.2) - exibição de gráficos;
+numpy (1.19.5) - utilitário para funções numéricas;
+pandas (1.1.5) - leitura e manipulação de dados;
+seaborn (0.11.1) - exibição de gráficos para análise exploratória;
+  () - ;
+Os passos seguidos foram:
+obtenção dos dados - as informações dos pacientes foram disponibilizadas pela Fundação José Silveira através de exportação pelo sistema RedCap;
+visualização dos dados - exploração de como os dados estão armazenados, visualização de suas características, análise estatística;
+transformação dos dados - seleção de colunas, preenchimento de valores nulos, exclusão de instâncias sem valores, conversão de tipos, e padronização de valores;
+análise dos principais atributos e componentes - obtenção dos principais componentes, verificação da variância acumulada, e representação gráfica dos atributos;
+aplicação dos algoritmos de clusterização - criação de modelos de agrupamento com as técnicas kmeans, kmedoids, dbscan e de hierarquia;
+comparação dos algoritmos de clusterização - verificação do desempenho de cada técnica utilizando o método da silhueta.
+
+\section{ANÁLISE EXPLORATÓRIA DE DADOS}
+\textit{Apresentar informações relevantes do conjunto de dados, identificar comportamentos médios e discrepantes, investigar se há interdependência entre dados e procurar identificar tendências. É uma etapa importante para apresentar informações não apenas sobre características de interesse, mas diversas outras informações que auxiliam no entendimento dessa característica.}
+
+\section{ENGENHARIA DE DADOS}
+\textit{Apresentar informações a respeito dos critérios utilizados para a limpeza de dados. Houve alguma transformação nos dados, reorganização, ajuste ou combinação de dados de diversas fontes.}
+
+\section{CONSTRUÇÃO DO MODELO DE INTELIGÊNCIA ARTIFICIAL}
+\textit{Como foi construído o modelo, quais as suas características e configurações, métricas utilizadas no treinamento, descrever como o modelo foi treinado, apresentar quais foram as formas de avaliação}
